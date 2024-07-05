@@ -1,4 +1,20 @@
-**/target
-TODO.md
+# Rust compilation
+target/
 
+# Python virtual environments and bytecode
+venv/
+*.pyc
+__pycache__
+*.egg-info
+
+# Generated artifacts
+*.csv
+*.png
+
+# Config
 .env
+*.env
+.env.*
+
+# Misc
+TODO.md

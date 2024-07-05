@@ -9,3 +9,5 @@ You need a `.env` file with the following setup:
 - `ADMIN_ID`: The NEAR account you will use to administrate this system
 - `ADMIN_PUBLIC_KEY`: Public key for the admin account
 - `ADMIN_PRIVATE_KEY`: Private key for the admin account
+- `AWS_ACCESS_KEY_ID`: Your AWS key ID
+- `AWS_SECRET_ACCESS_KEY`: Your AWS key secret
