@@ -1,0 +1,8 @@
+[tasks.build]
+workspace = false
+clear = true
+script = """
+cargo clippy -- -D warnings
+export RUSTFLAGS="-C link-arg=-s"
+cargo rustc --target wasm32-unknown-unknown --profile release -- --emit link=contract.wasm
+"""
